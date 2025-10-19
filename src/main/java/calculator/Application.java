@@ -1,12 +1,12 @@
 package calculator;
 
-import calculator.controller.CalculatorController;
+import calculator.calculator.Calculator;
 
 import java.io.IOException;
 
 public class Application {
     public static void main(String[] args) throws IOException {
-        CalculatorController controller = new CalculatorController();
-        controller.run();
+        Calculator calculator = new Calculator();
+        calculator.run();
     }
 }
